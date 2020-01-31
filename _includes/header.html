@@ -30,5 +30,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
     {% seo %}
+    {% if site.tags != "" %}
+      {% include collecttags.html %}
+    {% endif %}
+    {% include analytics.html %}
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
