@@ -158,10 +158,11 @@ See the original visualisation on
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.8.0/cloudinary-core-shrinkwrap.js"></script>
 
 An alternative view of the data can be seen here in stacked bar format:
+<p> 
 <img 
     data-src="https://res.cloudinary.com/mbp/image/upload/w_auto,c_scale/github/population_county_time_series_abmzht.png" 
     class="cld-responsive">
-    
+
 <script type="text/javascript">
     my_breakpoints = function (width){
       return 50 * Math.ceil(width / 50);
@@ -170,6 +171,7 @@ An alternative view of the data can be seen here in stacked bar format:
     cl.config({breakpoints:my_breakpoints, responsive_use_breakpoints:"resize"});
     cl.responsive();
 </script>
+</p>
 
 Hopefully this short blog post has introduced some of the terms in geospatial analysis. In future posts I'll introduce 
 how you can handle spatial data in open source databases (Postgres with PostGIS) and in the cloud with AWS and RDS. 
