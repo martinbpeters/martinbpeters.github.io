@@ -5,6 +5,7 @@ date: 2020-01-28
 excerpt: Irish Geospatial Data Analysis
 category: geospatial
 tags: geospatial ireland
+comments: true
 published: true
 ---
 
@@ -170,4 +171,8 @@ An alternative view of the data can be seen here in stacked bar format:
 Hopefully this short blog post has introduced some of the terms in geospatial analysis. In future posts I'll introduce 
 how you can handle spatial data in open source databases (Postgres with PostGIS) and in the cloud with AWS and RDS. 
 I'll go into more detail on polygon and point datasets, simple routing from point-to-point and ways to visualise spatial
-data with tools like Tableau/QGIS and web frameworks like d3js.  
+data with tools like Tableau/QGIS and web frameworks like d3js.
+
+{% if page.comments %} 
+{% include analytics.html %}
+{% endif %}
