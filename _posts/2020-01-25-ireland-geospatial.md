@@ -163,8 +163,7 @@ An alternative view of the data can be seen here in stacked bar format:
     class="cld-responsive">
     
 <script type="text/javascript">
-    var cl = cloudinary.Cloudinary.new({cloud_name: "demo"}); 
-    // replace 'demo' with your cloud name in the line above 
+    var cl = cloudinary.Cloudinary.new({cloud_name: "mbp"}); 
     cl.responsive();
 </script>
 
