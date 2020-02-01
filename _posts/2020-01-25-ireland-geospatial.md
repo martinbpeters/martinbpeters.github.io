@@ -173,5 +173,5 @@ I'll go into more detail on polygon and point datasets, simple routing from poin
 data with tools like Tableau/QGIS and web frameworks like d3js.
 
 {% if page.comments %} 
-{% include analytics.html %}
+{% include disqus.html %}
 {% endif %}
