@@ -163,7 +163,11 @@ An alternative view of the data can be seen here in stacked bar format:
     class="cld-responsive">
     
 <script type="text/javascript">
-    var cl = cloudinary.Cloudinary.new({cloud_name: "mbp"}); 
+    my_breakpoints = function (width){
+      return 50 * Math.ceil(width / 50);
+    }
+    var cl = cloudinary.Cloudinary.new({cloud_name: "mbp"});
+    cl.config({breakpoints:my_breakpoints, responsive_use_breakpoints:"resize"});
     cl.responsive();
 </script>
 
