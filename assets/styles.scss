@@ -94,3 +94,30 @@
 .highcharts-data-table tr:hover {
     background: #f1f7ff;
 }
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: #ddd;
+  padding-bottom: 8px;
+}
+
+th {
+  background-color: #c3c3c3;
+  color: white;
+}
+
+th, td {
+  padding: 6px;
+  text-align: left;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
