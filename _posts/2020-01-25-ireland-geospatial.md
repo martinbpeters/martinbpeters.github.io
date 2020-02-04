@@ -1,7 +1,7 @@
 ---
 id: 2
 title: "Geospatial Data Analysis in Ireland"
-date: 2020-01-28
+date: 2020-01-25
 excerpt: Irish Geospatial Data Analysis
 category: geospatial
 tags: geospatial ireland
